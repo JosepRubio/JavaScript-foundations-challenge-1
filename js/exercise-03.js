@@ -8,8 +8,8 @@ function getTypeOf(value) {
 return typeof value;
 }
 
-console.log(getTypeOf('string'));
-console.log(getTypeOf(2));
-console.log(getTypeOf(true));
-console.log(getTypeOf(null));
-console.log(getTypeOf(undefined));
+console.log(getTypeOf('string')); // string
+console.log(getTypeOf(2)); // number
+console.log(getTypeOf(true)); // boolean
+console.log(getTypeOf(null)); // undefined
+console.log(getTypeOf(undefined)); // null

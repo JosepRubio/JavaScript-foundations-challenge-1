@@ -15,8 +15,8 @@ const Boolean = true;
 const Null = false;
 const Undefined = undefined;
 
-console.log(String);
-console.log(Number);
-console.log(Boolean);
-console.log(Null);
-console.log(Undefined);
+console.log(string);
+console.log(number);
+console.log(boolean);
+console.log(null);
+console.log(undefined);

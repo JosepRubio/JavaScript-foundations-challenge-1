@@ -14,6 +14,5 @@ const vaca;
 vaca = "Moo!";
 console.log(vaca);
 
-/* const es una variable "inmutable" per tant no pots reassignar el valor de la variable 
-en canvi amb let al ser una variable "mutable" si que es pot i no dona error a més a més 
+/* A const variable can't be reassigned once it has been initialized.
 les constants necesitan una inicialització*/
