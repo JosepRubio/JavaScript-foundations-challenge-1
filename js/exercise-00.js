@@ -9,14 +9,14 @@
    Log out each variable to the terminal at the end.
 */
 
-const String = 'string';
-const Number = 4;
-const Boolean = true;
-const Null = false;
-const Undefined = undefined;
+const string = "string";
+const number = 4;
+const boolean = true;
+const nullValue = null;
+const undefined = undefined;
 
 console.log(string);
 console.log(number);
 console.log(boolean);
-console.log(null);
+console.log(nullValue);
 console.log(undefined);

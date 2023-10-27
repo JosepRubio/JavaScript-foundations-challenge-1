@@ -6,13 +6,13 @@
     Repeat the above steps but try using a const variable. Comment this new part of code and explain what is happening.
 */
 
-let vaca;
-vaca = "Moo!";
-console.log(vaca);
+let letCow;
+cow = "Moo!";
+console.log(letCow);
 
-const vaca; 
+const constCow; 
 vaca = "Moo!";
-console.log(vaca);
+console.log(constCow);
 
 /* A const variable can't be reassigned once it has been initialized.
 les constants necesitan una inicialització*/
