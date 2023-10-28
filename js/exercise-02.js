@@ -7,12 +7,11 @@
 */
 
 let letCow;
-cow = "Moo!";
+letCow = "Moo!";
 console.log(letCow);
 
 const constCow; 
-vaca = "Moo!";
+constCow = "Moo!";
 console.log(constCow);
 
-/* A const variable can't be reassigned once it has been initialized.
-les constants necesitan una inicialització*/
+/* A const variable can't be reassigned once it has been initialized.*/
