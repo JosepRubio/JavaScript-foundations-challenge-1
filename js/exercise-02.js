@@ -10,8 +10,7 @@ let letCow;
 letCow = "Moo!";
 console.log(letCow);
 
-const constCow; 
-constCow = "Moo!";
+const constCow = "Moo!";
 console.log(constCow);
 
 /* A const variable can't be reassigned once it has been initialized.*/
