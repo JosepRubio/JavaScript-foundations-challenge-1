@@ -10,13 +10,13 @@
 
 */
 
-let name = 'Josep';
+let name = "Josep";
 
 function updateValue(value) {
   name = value;
 }
 
-updateValue('Amygdala');
+updateValue("Amygdala");
 console.log(name);
 
 updateValue(true);
