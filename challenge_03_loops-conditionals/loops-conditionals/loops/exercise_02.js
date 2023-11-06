@@ -19,15 +19,15 @@
     All, done!
 */
 
-for (let i = 1; i <= 100; i++) {
-  if (i % 10 == 0) {
-    if (i == 50) {
-      console.log("Half way there!" + i);
-    } else if (i == 100) {
-      console.log("You made it!" + i);
+for (let checkPointNumber = 1; checkPointNumber <= 100; checkPointNumber++) {
+  if (checkPointNumber % 10 == 0) {
+    if (checkPointNumber == 50) {
+      console.log("Half way there!");
+    } else if (checkPointNumber == 100) {
+      console.log("You made it!");
       console.log("All, done!");
     } else {
-      console.log("Checkpoint!" + i);
+      console.log("Checkpoint! " + checkPointNumber);
     }
   }
 }
