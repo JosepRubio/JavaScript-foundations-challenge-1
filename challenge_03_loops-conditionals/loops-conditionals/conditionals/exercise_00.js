@@ -10,7 +10,7 @@
 */
 
 console.log("--- animal check program ---");
-let animal = "cat";
+let animal = "elephant";
 if (animal == "cat") {
   console.log("Meow!");
 } else if (animal == "dog") {

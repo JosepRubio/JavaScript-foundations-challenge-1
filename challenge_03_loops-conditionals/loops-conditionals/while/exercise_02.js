@@ -22,12 +22,12 @@ let number = 0;
 while (number <= 100) {
   if (number % 10 == 0) {
     if (number == 50) {
-      console.log("Half way there!" + number);
+      console.log("Half way there!");
     } else if (number == 100) {
-      console.log("You made it!" + number);
+      console.log("You made it!");
       console.log("All, done!");
     } else {
-      console.log("Checkpoint!" + number);
+      console.log("Checkpoint! " + number);
     }
   }
   number++;

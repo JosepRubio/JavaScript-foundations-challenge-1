@@ -11,7 +11,7 @@ for (let numberToCheck = 10; numberToCheck < 40; numberToCheck++) {
 }
 
 for (let numberToCheck = 10; numberToCheck < 40; numberToCheck++) {
-  if (numberToCheck % 2 === 1) {
+  if (numberToCheck % 2 !== 0) {
     console.log(numberToCheck + " is odd");
   }
 }
