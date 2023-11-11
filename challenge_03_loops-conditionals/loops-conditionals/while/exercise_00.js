@@ -7,14 +7,25 @@
 
     HINT1: Be careful for an infinite loop!
 */
-let loggedIn = false;
-let whileLoops = 0;
-while (!loggedIn) {
-  if (whileLoops < 3) {
-    console.log("Incorrect login credentials");
-    whileLoops++;
-  } else {
-    loggedIn = true;
-    console.log("Successfully logged in!");
+const isLoggedIn = function (limit) {
+  let iteration = 0;
+  let loggedIn = false;
+
+  while (!loggedIn) {
+    console.log(`Incorrect login credentials: loggedIn value is "${loggedIn}"`);
+    iteration++;
+
+    if (iteration === limit) {
+      loggedIn = true;
+    }
   }
-}
+
+  console.log(`Sucessfully logged in!: loggedIn value is "${loggedIn}"`);
+};
+
+console.log("--- Is LOGGED while Program ---");
+
+const limit = 3;
+isLoggedIn(limit);
+
+console.log("--- Is LOGGED while complete ---");

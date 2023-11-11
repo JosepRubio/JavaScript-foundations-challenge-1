@@ -4,14 +4,29 @@
     2. Create a for loop that will print out all the odd numbers between 10 and 40.
 */
 
-for (let numberToCheck = 10; numberToCheck < 40; numberToCheck++) {
-  if (numberToCheck % 2 === 0) {
-    console.log(numberToCheck + " is even");
+const isEvenLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number < highThreshold; number++) {
+    if (number % 2 === 0) {
+      console.log(`Number ${number} is even`);
+    }
   }
-}
+};
 
-for (let numberToCheck = 10; numberToCheck < 40; numberToCheck++) {
-  if (numberToCheck % 2 !== 0) {
-    console.log(numberToCheck + " is odd");
+const isOddLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number < highThreshold; number++) {
+    if (number % 2 !== 0) {
+      console.log(`Number ${number} is odd`);
+    }
   }
-}
+};
+
+console.log("--- Is EVEN or ODD loop Program ---");
+
+const startAt = 10;
+const endAt = 40;
+
+isEvenLoop(startAt, endAt);
+isOddLoop(startAt, endAt);
+
+console.log("--- Is EVEN or ODD loop complete ---");
+

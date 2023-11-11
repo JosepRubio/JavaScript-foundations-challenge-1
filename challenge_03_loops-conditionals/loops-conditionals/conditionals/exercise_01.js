@@ -8,9 +8,21 @@
     HINT: modulus operator ( % ) is your friend
 */
 
-let number = 6;
-if (number % 2 == 0) {
-  console.log("The number is even");
-} else {
-  console.log("The number is odd");
+
+const evenOdd = function (number) {
+  const result =
+    number % 2 === 0 ? `Number ${number} is EVEN` : `Number ${number} is ODD`;
+
+  return result;
+};
+
+console.log("--- Is EVEN or ODD Program ---");
+
+for (let iteration = 0; iteration < 5; iteration++) {
+  const number = Math.floor(Math.random() * 100);
+
+  const result = evenOdd(number);
+  console.log(result);
 }
+
+console.log("--- Is EVEN or ODD complete ---");

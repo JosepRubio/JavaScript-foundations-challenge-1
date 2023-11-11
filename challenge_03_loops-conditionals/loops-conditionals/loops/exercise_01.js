@@ -7,12 +7,20 @@
         * if it is less than 5 print "Logged Out!"
 */
 
-for (let index = 0; index < 10; index++) {
-  let randomNumber = Math.floor(Math.random() * 10) + 1;
-  console.log("random number is " + randomNumber);
-  if (randomNumber >= 5) {
-    console.log("Logged In!");
-  } else {
-    console.log("Logged Out!");
+const isLogged = function (iterations) {
+  for (let iteration = 0; iteration < iterations; iteration++) {
+    const number = Math.floor(Math.random() * 10);
+
+    number >= 5
+      ? console.log(`Number ${number}: Logged In`)
+      : console.log(`Number ${number}: Logged Out`);
   }
-}
+};
+
+console.log("--- Is LOGGED loop Program ---");
+
+const iterations = 5;
+isLogged(iterations);
+
+console.log("--- Is LOGGED loop complete ---");
+

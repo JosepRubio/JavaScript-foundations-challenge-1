@@ -19,15 +19,28 @@
     All, done!
 */
 
-for (let checkPointNumber = 1; checkPointNumber <= 100; checkPointNumber++) {
-  if (checkPointNumber % 10 == 0) {
-    if (checkPointNumber == 50) {
+const isTenthLoop = function (lowThreshold, highThreshold) {
+  for (let number = lowThreshold; number <= highThreshold; number++) {
+    if (number === 100) {
+      console.log("You made it!\nAll, done!");
+    }
+
+    if (number === 50) {
       console.log("Half way there!");
-    } else if (checkPointNumber == 100) {
-      console.log("You made it!");
-      console.log("All, done!");
-    } else {
-      console.log("Checkpoint! " + checkPointNumber);
+    }
+
+    if (number % 10 === 0 && number % 50 !== 0) {
+      console.log(`Checkpoint! ${number}`);
     }
   }
-}
+};
+
+console.log("--- Is TENTH loop Program ---");
+
+const firstValue = 1;
+const lastValue = 100;
+
+isTenthLoop(firstValue, lastValue);
+
+console.log("--- Is TENTH loop complete ---");
+
