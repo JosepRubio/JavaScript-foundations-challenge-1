@@ -5,10 +5,10 @@
 */
 
 function getTypeOf(value) {
-return typeof value;
+  return typeof value;
 }
 
-console.log(getTypeOf('string')); // string
+console.log(getTypeOf("string")); // string
 console.log(getTypeOf(2)); // number
 console.log(getTypeOf(true)); // boolean
 console.log(getTypeOf(null)); // undefined
